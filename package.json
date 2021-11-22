@@ -1,0 +1,20 @@
+{
+  "name": "indexedDB-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/graycarter/indexedDB-example.git",
+  "author": "Grayson Carter <graysoncarter1999@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "localforage": "^1.10.0",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "build": "watchify index.js -o ./src/bundle.js"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "tinify": "^1.6.1",
+    "watchify": "^4.0.0"
+  }
+}
